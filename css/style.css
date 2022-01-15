@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cover{
+    display: flex;
+    background-color: white;
+    height: 100vh;
+}
+.leftSection{
+    width: 20%;
+    padding: 1rem;
+    border-right: 3px solid rgb(180, 180, 180);
+}
+.addBtn button{
+    background-color: rgb(24, 144, 148);
+    width: 100%;
+    height: 5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    color: lavender;
+    cursor: pointer;
+}
+
+.notes{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+.activeNote{
+    background-color: rgb(230, 226, 226);
+}
+
+.date{
+ position: relative;  
+ padding: 1rem;  
+ color: rgb(180, 180, 180);
+ font-size: 1rem;
+ font-weight: bolder;
+}
+
+.dateMade{
+    position: absolute;
+    right: 0;
+}
+/* end of first section */
+
+
+
+
+
+/* right section */
+.rightSection{
+    width: 80%;
+    padding: 2rem;
+}
+textarea{
+    width: 100%;
+    height: 90vh;
+    border: none;
+    font-size:2rem;
+    padding: 4rem;
+    outline: none;
+}
+.title{
+    font-size: 2rem;
+}

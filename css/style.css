@@ -13,11 +13,12 @@
     width: 20%;
     padding: 1rem;
     border-right: 3px solid rgb(180, 180, 180);
+
 }
 .addBtn button{
     background-color: rgb(24, 144, 148);
     width: 100%;
-    height: 5rem;
+    height: 4.5rem;
     border: none;
     border-radius: 5px;
     font-size: 2rem;
@@ -59,6 +60,8 @@
 .rightSection{
     width: 80%;
     padding: 2rem;
+    background-color: rgb(1, 2, 2);
+    color: rgb(24, 144, 148);
 }
 textarea{
     width: 100%;
@@ -67,6 +70,8 @@ textarea{
     font-size:2rem;
     padding: 4rem;
     outline: none;
+    background-color: rgb(1, 2, 2);
+    color: rgb(24, 144, 148);
 }
 .title{
     font-size: 2rem;
